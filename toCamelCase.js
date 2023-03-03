@@ -21,7 +21,7 @@ console.log(toCamelCase("A-B-C"));
 // Best Practice
 
 function toCamelCaseBest(str) {
-  const regExp = /[-_]\w/gi;
+  const regExp = /[-_]\w/gi; // \w mean "Match any word character"
   return str.replace(regExp, (match) => match.charAt(1).toUpperCase());
 
   // return str.replace(/[-_](.)/g, (_, c) => c.toUpperCase());
