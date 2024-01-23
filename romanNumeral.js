@@ -1,4 +1,5 @@
 // Roman Numerals Encoder
+// https://www.codewars.com/kata/51b62bf6a9c58071c600001b/javascript
 
 function solution(number) {
   // convert the number to a roman numeral
@@ -29,4 +30,20 @@ function solution(number) {
   return result;
 }
 
-console.log(solution());
+console.log(solution(1));
+console.log(solution(2));
+console.log(solution(3));
+console.log(solution(4));
+console.log(solution(5));
+console.log(solution(9));
+console.log(solution(10));
+console.log(solution(11));
+console.log(solution(19));
+console.log(solution(22));
+console.log(solution(15));
+
+console.log(solution(1000));
+console.log(solution(1001));
+console.log(solution(1990));
+console.log(solution(2007));
+console.log(solution(2008));
